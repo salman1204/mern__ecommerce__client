@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 const Header = () => {
 
-  const [current, setCurrent] = useState('home');
+  const [current, setCurrent] = useState('');
   const { SubMenu, Item } = Menu;
 
   const handleClick = (e) => {
